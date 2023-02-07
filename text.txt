@@ -1,0 +1,5 @@
+body{margin:0;}
+iframe{border:none;position:fixed;width:100%;height:100%;top:0;bottom:0;}
+#loader{width:100%;height: 100%;background:#fefffe;z-index:9999;position:fixed;top:0bottom:0;}
+#loader span{width: 36px;height: 36px;animation: loading 1.8s linear infinite;background: transparent;transition: all 1s;display:inline-block;margin: 0;position: absolute;top: calc(50% - 24px);left: calc(50% - 18px);border-radius:50%;border: 4px dashed #148C83;}
+@keyframes loading{from{transform: rotate(0deg);transition: all 1s;}to{transform: rotate(360deg);transition: all 1s;}}
